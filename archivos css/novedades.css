@@ -1,0 +1,35 @@
+/* Estilos para el contenedor principal */
+.panel {
+    width: 89%;                  /* Ocupa todo el ancho disponible */
+    height: 75%;                /* Altura del contenedor */
+    background-color: #000000;    /* Color de fondo gris claro */
+    display: flex;                /* Flexbox para centrar el contenido */
+    justify-content: left;      /* Centrar horizontalmente el contenido */
+   text-align: center;
+    border: 1px solid #a65252;       /* Borde gris claro */
+}
+
+/* Estilos para el elemento interno */
+.fondo /*novedades*/{ 
+    width: auto;                 /* Ancho del elemento interno */
+    height: auto;                /* Altura del elemento interno */
+    background-color: #000000;       /* Color de fondo oscuro */
+    display: flex;                /* Flexbox para centrar la imagen */
+    align-items:center;          /* Centrar verticalmente la imagen */
+    text-align: center;
+    color: #ffffff;
+}
+.titulo-novedades /*novedades*/
+{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.CEFCE-logo {
+    max-width: 140px; /* Ajusta el tamaño de acuerdo a tus preferencias */
+    height: auto;
+    margin-bottom: 5px;
+    align-items: center;
+}

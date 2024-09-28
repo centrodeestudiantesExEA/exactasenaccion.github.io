@@ -1,0 +1,79 @@
+.contenedor-articulos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    margin: 20px auto;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.articulo {
+    background-color: #000000;
+    padding: 2vw; /* Usamos vw para hacer que el padding crezca con el zoom */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(30% - 20px); /* El ancho depende del tamaño de la ventana */
+    min-width: 250px; /* Mínimo ancho para no colapsar en pantallas pequeñas */
+    max-width: 100vw; /* Máximo ancho, asegura que no se extienda demasiado */
+    box-sizing: border-box;
+    border: 2px solid #eeff06;
+}
+
+.articulo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 2vw; /* Usamos vw para que crezca con el zoom */
+}
+
+.texto-articulo {
+    text-align: justify;
+}
+
+h2 {
+    font-size: 2.5vw; /* Título ajustable basado en el ancho de la ventana */
+    margin-bottom: 1vw;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1.8vw; /* Texto ajustable con el zoom */
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* Estilo responsivo para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .articulo {
+        width: calc(45% - 20px); /* Dos columnas en pantallas medianas */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .articulo {
+        width: 100%; /* Una columna en pantallas pequeñas */
+    }
+
+    h2 {
+        font-size: 5vw; /* Aumentamos el tamaño del título en pantallas pequeñas */
+    }
+
+    p {
+        font-size: 3.5vw; /* Aumentamos el tamaño del texto en pantallas pequeñas */
+    }
+}
+.fechas h3
+{
+color: #efe102;
+
+}
+/*   <div class="articulo"></div>
+                <img src="../IMAGENES/PREPARATE.jpg" alt="publicidad de las olimpiadas 2024">
+                <div class="texto-articulo">
+                    <h2>OLIMPIADAS 2024</h2>
+                    <p>
+                    ya se siente el ambiente a las olimpiadas por eso te invitamos a 
+                    acercarte a las instalaciones tanto en la ciudad como en el campus para ver y alentar
+                    a exactas en cada disiplina deportiva,cultural y/o e-game. pronto publicaremos los horarios de cada una de estas competencias. 
+                    </p>
+                </div>
+            </div>

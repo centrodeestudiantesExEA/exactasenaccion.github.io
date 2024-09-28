@@ -1,0 +1,23 @@
+
+.titulo /*apartado principal*/
+{
+    background: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.titulo-prop /*fondo*/
+{
+    background: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+   height: auto;
+   width: auto;
+}
+.titulo-logo {
+    max-width: 130px; /* Tamaño máximo de la imagen */
+    height: auto; /* Ajusta la altura automáticamente manteniendo la proporción */
+    margin-bottom: 20px; /* Espaciado inferior */
+    padding: 10px 20px; /* Espaciado interno */
+}

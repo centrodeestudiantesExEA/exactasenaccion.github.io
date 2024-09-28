@@ -1,0 +1,19 @@
+/* Estilo básico para la galería */
+.galeria-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#ffffff;
+    padding: 35px; /* separador de borde arriba,abajo*/
+    width: auto;
+    height: auto;
+ 
+  
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    border: 20px solid #000000;
+}

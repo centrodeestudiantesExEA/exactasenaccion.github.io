@@ -1,0 +1,45 @@
+
+
+/* Asegura que los elementos de la página ocupen todo el ancho */
+.titulo, .menu, form, footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Opcionalmente, puedes ajustar la alineación de texto */
+.titulo h1, .menu a, form label, footer {
+    text-align: center;
+}
+
+/* Elimina bordes adicionales o padding en otros contenedores */
+.menu a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+/* Contenedor para centrar el formulario */
+.form-container {
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;  /* Centra verticalmente */
+    height: 100vh;  /* Ocupa toda la altura de la ventana */
+    padding: 20px;  /* Agrega espacio interno */
+    box-sizing: border-box;
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: #000000;  /* Color de fondo blanco */
+    padding: 20px;  /* Espacio interno del formulario */
+    border-radius: 10px;  /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra para el formulario */
+    width: 100%;  /* Ocupa el 100% del espacio disponible dentro del contenedor */
+    max-width: 500px;  /* Limita el ancho máximo del formulario */
+    box-sizing: border-box;
+    max-height: 1000px;
+    height: 70%;
+    color: rgb(64, 214, 214);
+    margin: 10px;
+}

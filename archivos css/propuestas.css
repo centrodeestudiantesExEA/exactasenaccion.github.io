@@ -1,0 +1,73 @@
+
+/* Contenedor del formulario */
+
+/* Estilo básico para la galería */
+.galeria-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 15px; /* separador de borde arriba,abajo*/
+    width: 100%;
+   
+    height: 100%;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+
+    width: 600px;
+   
+    height: 600px;
+}
+
+.activo {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    font-size: 24px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: black;
+    border-radius: 5px;
+}
+img
+{
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+.imagenes
+{
+    max-width: 50%;
+    width: 600px;
+    max-height: 50%;
+    height: 600px;
+}

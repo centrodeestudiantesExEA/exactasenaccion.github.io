@@ -1,0 +1,66 @@
+/* Estilos específicos para esta página */
+.candidatos-page {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Contenedor para las dos columnas de vocales */
+.vocales-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* Dos columnas de igual tamaño */
+    gap: 20px;  /* Espacio entre las columnas */
+    width: 100%;  /* Ocupa todo el ancho disponible */
+    max-width: 800px;  /* Limita el ancho máximo */
+    margin: 0 auto;  /* Centra el contenedor */
+}
+
+/* Alineación vertical de cada columna de vocales */
+.vocales-grid1, .vocales-grid2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  /* Espacio entre las filas de vocales */
+}
+
+/* Estilo para cada elemento vocal */
+.vocal {
+    border: 2px solid black; /* Borde negro de 2px */
+    padding: 10px;  /* Espacio interno */
+    background-color: rgb(0, 0, 0);  /* Fondo blanco para el contenido */
+    border-radius: 5px;  /* Esquinas redondeadas (opcional) */
+    text-align: center;  /* Centra el texto */
+    color: white;
+}
+
+/* Alineación del texto dentro de cada vocal */
+.vocal h4, .vocal p {
+    margin: 0;  /* Elimina márgenes predeterminados */
+}
+.candidate {
+    border: 2px solid black; /* Borde negro de 2px */
+    padding: 10px;  /* Espacio interno */
+    background-color: rgb(0, 0, 0);  /* Fondo blanco para el contenido */
+    border-radius: 5px;  /* Esquinas redondeadas (opcional) */
+    text-align: center;  /* Centra el texto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para efecto de elevación */
+    color: white;
+}
+.vocales-grid1 .vocal:last-child,
+.vocales-grid2 .vocal:last-child {
+    border-bottom: 4px solid black; /* Borde inferior negro más grueso */
+    margin-bottom: 20px; /* Espacio adicional al final de la sección */
+}
+.highlighted-candidates {
+    display: flex;
+    justify-content: center;  /* Centra los elementos horizontalmente */
+    gap: 30px;  /* Espacio entre los elementos */
+}

@@ -1,0 +1,39 @@
+
+/* Estilo para los campos del formulario */
+input[type="text"],
+input[type="number"] {
+    padding: 8px;
+    border: 5px solid #ecde11;
+    border-radius: 5px;
+    width: 100%;  /* Ajusta el ancho para que ocupe todo el espacio disponible */
+    box-sizing: border-box;
+}
+
+/* Espaciado entre los campos del formulario */
+input[type="text"],
+input[type="number"],
+label {
+    margin-bottom: 10px; /* Agrega espacio entre los campos */
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+/* Estilo para el campo de selección (select) */
+select {
+    padding: 8px;
+    border: 2px solid #ecde11;
+    border-radius: 5px;
+    width: 100%; /* Para que ocupe todo el ancho */
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}

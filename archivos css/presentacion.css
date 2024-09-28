@@ -1,0 +1,25 @@
+/* Estilo para la presentación */
+.presentacion {
+    width: auto; /* Asegura que la sección ocupe todo el ancho */
+    height: auto;
+    text-align: center;
+    padding: 40px 20px;
+    display: flex; /* Usa Flexbox para organizar los elementos */
+    background-color: white;
+    color: black;
+}
+
+.presentacion img {
+    max-width: 40%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.presentacion p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+

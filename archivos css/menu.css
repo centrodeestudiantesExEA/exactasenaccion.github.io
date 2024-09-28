@@ -1,0 +1,46 @@
+
+
+/* Estilo para el menú de navegación */
+.menu {
+    width: 100%; /* Ocupa todo el ancho */
+    height: auto;
+    display: flex;
+    justify-content: center; /* Centra los enlaces del menú */
+    background-color: #efe102; /* Fondo oscuro para el menú */
+    flex-direction: column;
+}
+
+.menu a {
+    color: #000000; /* Color del texto */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    border: 10px solid transparent;
+}
+
+.menu a:hover {
+    background-color: #333; /* Fondo más oscuro al pasar el cursor */
+    border-radius: 15px;
+    color: white;
+    border-color: rgb(28, 0, 0); /* Color blanco para el borde cuando está en foco o activo */
+
+}
+.menu a:focus, .menu a:active {
+    border-color: white; /* Color blanco para el borde cuando está en foco o activo */
+}
+p
+{
+    text-align:center;
+}
+  /* Color de fondo para pantallas grandes o alto zoom */
+
+
+/* Contenedor principal para organizar las secciones verticalmente */
+.container {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en una columna (verticalmente) */
+    align-items: center; /* Centra los elementos horizontalmente */
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
