@@ -1,6 +1,7 @@
 /* Estilos para el pie de página */
 footer {
     width: 100%; /* Ocupa todo el ancho */
+    height: auto;
     background-color: #000000; /* Fondo oscuro para el pie de página */
     color: #000000; /* Texto blanco */
     text-align: center;
@@ -9,7 +10,7 @@ footer {
     flex-direction: column;
     justify-content: center; /* Centra verticalmente */
     align-items: center; /* Centra horizontalmente */
-    height: 300px; /* Ajusta la altura si lo necesitas */
+    height: auto; /* Ajusta la altura si lo necesitas */
 }
 
 .footer-content {
@@ -51,8 +52,10 @@ footer {
     align-items: center;
 }
 .footer-logo {
-    max-width: 130px; /* Tamaño máximo de la imagen */
+    margin-top: 40px;
+    width: 250px; /* Tamaño máximo de la imagen */
     height: auto; /* Ajusta la altura automáticamente manteniendo la proporción */
     margin-bottom: 20px; /* Espaciado inferior */
-    padding: 10px 20px; /* Espaciado interno */
+    padding: 0px 20px; /* Espaciado interno */
+  
 }

@@ -16,8 +16,10 @@
    width: auto;
 }
 .titulo-logo {
-    max-width: 130px; /* Tamaño máximo de la imagen */
-    height: auto; /* Ajusta la altura automáticamente manteniendo la proporción */
-    margin-bottom: 20px; /* Espaciado inferior */
-    padding: 10px 20px; /* Espaciado interno */
-}
+        margin-top: 30px;
+        width: 250px; /* Tamaño máximo de la imagen */
+        height: auto; /* Ajusta la altura automáticamente manteniendo la proporción */
+        margin-bottom: 20px; /* Espaciado inferior */
+        padding: 0px 20px; /* Espaciado interno */
+      
+    }
